@@ -4,9 +4,7 @@
       [Georchestra.org](https://www.georchestra.org/)
 
 -    **Where to get help**:  
-      the Georchestra Github repo, Matrix chat, Stack Overflow
-
-https://matrix.to/#/#georchestra:libera.chat
+     the [Georchestra Github repo](https://github.com/georchestra/georchestra), [Matrix chat](https://matrix.to/#/#georchestra:libera.chat), Stack Overflow
 
 # Featured tags
 
@@ -38,7 +36,14 @@ Each table can be exported to CSV for easy offline use.
 
 # How to use this image
 
-Add it in your docker compose file, specifying [datadir](https://github.com/georchestra/datadir) location:
+As for every other geOrchestra webapp, its configuration resides in the data directory ([datadir](https://github.com/georchestra/datadir)), typically something like /etc/georchestra, where it expects to find a analytics sub-directory.
+
+You can run the image using :
+```shell
+docker run -v georchestra_datadir:/etc/georchestra georchestra/analytics:latest
+```
+
+Or with `docker compose`:
 ```yaml
   analytics:
     image: georchestra/analytics:latest
@@ -55,6 +60,10 @@ Add it in your docker compose file, specifying [datadir](https://github.com/geor
 ```
 
 A full configuration example is available in [georchestra/docker](https://github.com/georchestra/docker) repo.
+
+## Where is it built
+
+This image is build using maven : `../mvnw package docker:build -Pdocker` in `georchestra` repo `analytics/` folder.
 
 # License
 
