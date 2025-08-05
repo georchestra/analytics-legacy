@@ -2,13 +2,12 @@ name: "analytics"
 on:
   workflow_dispatch:
   push:
-    paths:
-      - "commons/**"
-      - "analytics/**"
+    branches:
+      - main
+    tags:
+      - '*'
   pull_request:
-    paths:
-      - "commons/**"
-      - "analytics/**"
+
 
 jobs:
   build:
