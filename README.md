@@ -1,7 +1,7 @@
 Analytics
 =========
 
-![analytics](https://github.com/georchestra/georchestra/workflows/analytics/badge.svg)
+![analytics](https://github.com/georchestra/analytics-legacy/workflows/analytics/badge.svg)
 
 Analytics offers
  * services which are used by the console
