@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <artifactId>analytics-legacy</artifactId>
     <groupId>org.gorchestra</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>25.1-SNAPSHOT</version>
     <parent>
         <!-- Depending on a released version of spring-boot-dependencies provides a curated list of dependency versions for all
           modules. See https://github.com/spring-projects/spring-boot/blob/v1.5.19.RELEASE/spring-boot-dependencies/pom.xml which is
