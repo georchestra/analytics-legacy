@@ -2,9 +2,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <artifactId>analytics-legacy</artifactId>
+    <artifactId>analytics</artifactId>
     <groupId>org.gorchestra</groupId>
-    <version>25.1-SNAPSHOT</version>
+    <version>25.1.0</version>
     <parent>
         <!-- Depending on a released version of spring-boot-dependencies provides a curated list of dependency versions for all
           modules. See https://github.com/spring-projects/spring-boot/blob/v1.5.19.RELEASE/spring-boot-dependencies/pom.xml which is
